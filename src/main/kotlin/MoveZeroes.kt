@@ -6,6 +6,7 @@ class MoveZeroes {
 
     fun moveZeroes(nums: IntArray): Unit {
         if (nums.size == 1) return
+        var lastNonZero = 0
         var i = 0
         var j = nums.size - 1
         while (i < j) {
@@ -14,11 +15,12 @@ class MoveZeroes {
                 continue
             }
             if (nums[i] == 0) {
+                lastNonZero = i - 1
                 while (i < j) {
                     nums[i] = nums[i + 1].also { nums[i + 1] = nums[i] }
                     i++
                 }
-                i = -1
+                i = lastNonZero
             }
             i++
         }
