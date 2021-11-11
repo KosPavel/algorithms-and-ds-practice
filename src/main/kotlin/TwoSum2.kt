@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test
 import kotlin.test.assertContentEquals
 
-//https://leetcode.com/problems/search-insert-position/
+//https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
 class TwoSum2 {
 
     fun twoSum(numbers: IntArray, target: Int): IntArray {
