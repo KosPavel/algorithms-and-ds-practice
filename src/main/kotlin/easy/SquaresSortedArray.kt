@@ -1,3 +1,5 @@
+package easy
+
 import org.junit.jupiter.api.Test
 import kotlin.math.abs
 import kotlin.test.assertContentEquals

@@ -1,3 +1,7 @@
+package medium
+
+import ListNode
+import assertNodesEquals
 import org.junit.jupiter.api.Test
 
 //https://leetcode.com/problems/remove-nth-node-from-end-of-list/

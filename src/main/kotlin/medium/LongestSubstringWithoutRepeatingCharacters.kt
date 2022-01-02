@@ -1,3 +1,6 @@
+package medium
+
+import isUniqueSymbols
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
 
@@ -21,10 +24,6 @@ class LongestSubstringWithoutRepeatingCharacters {
             j++
         }
         return uniqueLength
-    }
-
-    fun String.isUniqueSymbols(): Boolean {
-        return this.length == this.toSet().size
     }
 
 }

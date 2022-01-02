@@ -1,3 +1,7 @@
+package easy
+
+import ListNode
+import assertNodesEquals
 import org.junit.jupiter.api.Test
 
 //https://leetcode.com/problems/reverse-linked-list/
