@@ -33,7 +33,3 @@ fun ListNode?.assertNodesEquals(expected: ListNode?) {
         "expected $expected, actual $this"
     )
 }
-
-fun String.isUniqueSymbols(): Boolean {
-    return this.length == this.toSet().size
-}
