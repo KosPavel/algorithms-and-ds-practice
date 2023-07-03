@@ -1,8 +1,4 @@
-class ListNode(val `val`: Int, var next: ListNode? = null) {
-
-    override fun toString(): String {
-        return `val`.toString() + " " + if (next != null) next?.toString() else ""
-    }
+data class ListNode(val `val`: Int, var next: ListNode? = null) {
 
     companion object {
         fun generate(nums: List<Int>): ListNode {
