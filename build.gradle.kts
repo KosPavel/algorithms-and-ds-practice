@@ -13,6 +13,7 @@ repositories {
 }
 
 dependencies {
+    implementation(kotlin("script-runtime"))
     implementation("org.junit.jupiter:junit-jupiter:5.7.0")
     implementation("org.jetbrains.kotlin:kotlin-test:1.5.31")
     implementation("org.jetbrains.kotlin:kotlin-test-junit5:1.5.31")
