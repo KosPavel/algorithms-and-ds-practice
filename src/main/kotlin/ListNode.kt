@@ -1,5 +1,9 @@
 data class ListNode(val `val`: Int, var next: ListNode? = null) {
 
+    override fun toString(): String {
+        return "${`val`}-${next.toString()}"
+    }
+
     companion object {
         fun generate(nums: List<Int>): ListNode {
             if (nums.isEmpty()) throw Exception("List must not be empty!")
